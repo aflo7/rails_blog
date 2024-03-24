@@ -1,9 +1,20 @@
-<div id="posts">
-  <% @posts.each do |post| %>
-    <%= render post %>
-    <p>
-      <%= link_to "Show this post", post %>
-    </p>
-  <% end %>
-</div>
 
+  <% @posts.each do |post| %>
+  
+    <div class="col-4 col-12-medium">
+    <section class="box feature blog-post">
+      <div class="image featured">
+      <img src="<%= 'assets/pic' + post.image_url + '.jpg' %>" alt="" />
+     
+      </div>
+      <div class="inner">
+        <header>
+        <div style="padding-bottom: 10px;"><%= post.date %> </div>
+          <h2><%= post.title %></h2>
+
+        </header>
+        <p><%= post.description %></p>
+      </div>
+    </section>
+  </div>
+  <% end %>
