@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Rails Blog</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+
+  <%= stylesheet_link_tag "main", "data-turbo-track": "reload" %>
+
+  <%= stylesheet_link_tag "fontawesome", "data-turbo-track": "reload" %>
+</head>
+
+<body class="is-preload homepage">
+<%= yield %>
+
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<div id="header-wrapper">
+			<header id="header" class="container">
+				<!-- Logo -->
+				<div id="logo">
+					<h1 style="background-color: 5px solid red !important;">Blog</h1>
+					<span>A place to share opinions</span>
+				</div>
+			</header>
+		</div>
+
+
+
+		<!-- Features -->
+		<div id="features-wrapper">
+			<div class="container">
+				<div class="row">
+
+
+
+					<div class="col-4 col-12-medium">
+						<section class="box feature blog-post">
+							<div class="image featured"><img src="images/pic01.jpg" alt="" /></div>
+							<div class="inner">
+								<header>
+									<h2>Put something here</h2>
+									<!-- <p>Maybe here as well I think</p> -->
+								</header>
+								<p>Phasellus quam turpis.</p>
+							</div>
+						</section>
+					</div>
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
