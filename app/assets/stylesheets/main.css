@@ -1915,6 +1915,7 @@ input, select, textarea {
 
 	#header-wrapper {
 		padding: 4.5em 0 3em 0;
+		background-color: rgb(80, 0, 0);
 	}
 
 	#features-wrapper {
@@ -2258,6 +2259,8 @@ input, select, textarea {
 			#header-wrapper {
 				padding: 3em 0 1em 0;
 				text-align: center;
+		/* background-color: red; */
+
 			}
 
 			#footer-wrapper {
@@ -2625,6 +2628,8 @@ input, select, textarea {
 
 			#header-wrapper {
 				padding: 3em 0 1.5em 0;
+		/* background-color: red; */
+
 			}
 
 			#banner-wrapper {
