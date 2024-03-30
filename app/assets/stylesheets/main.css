@@ -1786,6 +1786,11 @@ input, select, textarea {
 
 		.box.feature {
 			padding: 0;
+			/* border: 5px solid red; */
+			display: flex;
+			flex-direction: column;
+			/* gap: 200px; */
+			height: 100%;
 		}
 
 			.box.feature .inner {
@@ -2576,6 +2581,8 @@ input, select, textarea {
 				.box.feature {
 					margin: 20px 0 0 0 !important;
 					padding: 0;
+					background-color: red;
+					/* border: 10px solid blue; */
 				}
 
 					.box.feature .inner {
