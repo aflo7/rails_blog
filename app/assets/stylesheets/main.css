@@ -2581,7 +2581,7 @@ input, select, textarea {
 				.box.feature {
 					margin: 20px 0 0 0 !important;
 					padding: 0;
-					background-color: red;
+					/* background-color: red; */
 					/* border: 10px solid blue; */
 				}
 
